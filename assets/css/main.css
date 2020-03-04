@@ -1,13 +1,137 @@
+div>p {
+    float: right;
+}
+
 .form-background {
-    background-image: url("assets/images/background1.jpg");
+    background-image: url(../images/background1.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 10%;
+    width: 100vw;
+    opacity: 0.7;
+}
+
+.bg-image {
+    background: rgba(248, 248, 255, 0.6);
+    padding: 5%;
+}
+
+.signInForm {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(54, 59, 61);
+    position: absolute;
+    color: white;
+}
+
+.signInForm h3 {
+    color: rgb(255, 255, 255);
+}
+
+.signInForm input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+input:focus {
+    border: 2px solid #A93F55;
+    background-color: #FFE2FE;
+}
+
+.signInForm a {
+    color: white;
+}
+
+.signin-btn:focus {
+    border: 2px solid #F1E4E8;
+}
+
+.card-container {
+    display: inline-flex;
+}
+
+.container-fluid {
+    padding: 0% !important;
+}
+
+.card-img {
+    transition: .5s all;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+}
+
+.card-link {
+    color: rgb(3, 43, 62);
+}
+
+.category-checkcard {
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0%;
+}
+
+.col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0%;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.wrapper {
+    margin-top: 60px;
+}
+
+.sideMenu .wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 60px auto auto;
+    width: 200px;
+}
+
+.sidebar {
+    background-color: rgb(159, 167, 170);
+    opacity: 0.8;
+}
+
+.text {
+    margin-left: 3px;
+    justify-content: center;
+    color: rgb(63, 38, 38);
+}
+
+.action-btn {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
 }
 
 
-/* .bg-image {
-    background: rgba(0, 0, 0, 0.6);
+/* .txtb {
+    background-color: rgb(248, 245, 245);
 } */
 
 
