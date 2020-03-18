@@ -1,12 +1,14 @@
-<?php require_once '../component/header.php'?>
+<?php 
+require_once '../component/header.php';
+
+?>
 
 
 
-    <main>
-        <!-- Signin form starts -->
-        <div class="form-background">
 
-            <div class="signInForm">
+                <main class= "loginform-background">
+
+                <div class="signInForm">
                 <h1 class="text-center mb-3 text-light">LOGIN</h1>
                 <form action="" name="" method="" enctype="">
 
@@ -19,14 +21,16 @@
                     <a href="#">Forgotten your password?</a>
 
                 </form>
-            </div>
 
 
-        </div>
-        <!-- Signin Form ends -->
-    </main>
 
-    <?php
+                </div>  -->
 
-require_once "../component/footer.php";
-?>
+                </main>
+
+            <?php
+
+            require_once "../component/footer.php";
+            ?>
+            <!-- </body> -->
+    
